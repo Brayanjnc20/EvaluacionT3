@@ -67,10 +67,10 @@ for fila in laberinto:
 print("\nBuscando camino...\n")
 
 if backtracking(inicio[0], inicio[1], ENERGIA_INICIAL):
-    print("¡Camino encontrado! La persona SÍ puede salir.\n")
+    print("¡Camino encontrado! \n")
 else:
-    print("No existe un camino posible con 18 unidades de energía.\n")
+    print("No existe un camino \n")
 
-print("MATRIZ DE LA RUTA (1 = recorrido):\n")
+print("MATRIZ DE LA RUTA (recorrido = 1):\n")
 for fila in ruta:
     print(fila)
